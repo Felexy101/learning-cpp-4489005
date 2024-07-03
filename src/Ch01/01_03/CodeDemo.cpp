@@ -5,11 +5,13 @@
 #include <iostream>
 #include <string>
 
-int main(){
-    std::string str;
-    std::cin >> str;
-    std::cout << str;
 
-    std::cout << std::endl << std::endl;
-    return (0);
+int main() {
+    std::string w;
+    std::cout << "Please Enter a Word: " << std::flush;
+    std::cin >> w;
+
+    std::cout << "The Word Enetered Was: " << w << std::endl;
+
+    return 0;
 }
