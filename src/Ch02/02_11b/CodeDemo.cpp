@@ -6,7 +6,16 @@
 #include <cstdint>
 
 int main(){
-    
+    int fahrenheit = 100;
+    int celsius;
+
+    celsius = ((float)5/9.0) *  (fahrenheit - 32);
+
+    std::cout << "Fahrenheit: " << fahrenheit << std::endl;
+    std::cout << "Celsius: " << celsius << std::endl;
+
+    float weight = 10.99;
+  
     std::cout << std::endl << std::endl;
     return (0);
 }
